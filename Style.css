@@ -1,0 +1,15 @@
+.imagenFondo{
+   background-image: url(/design1_image1.jpg);
+   background-position: center center;
+   background-size: 90%;
+   background-repeat: no-repeat;
+}
+
+h1{
+ text-align: justify;
+ font-family: c, sans-serif;
+}
+
+logo{
+    align-items: bottom;
+}
