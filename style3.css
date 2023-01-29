@@ -1,0 +1,70 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 0;
+    margin: 0;
+}
+.imagenFondo{
+   background-image: url("assets/design2_image1.jpg");
+   background-position: center center;
+   background-repeat: no-repeat; 
+   background-size: cover;
+   display: block
+}
+body{
+    background-color: rgb(23, 172, 123);
+}
+
+.bajoImagenPortada{
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 193px;
+    left: 249px;
+
+}
+
+.logo {
+    position: relative;
+    right: -594px;
+    top: 64px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.barraNavegacion{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+  
+.elementoBarraNavegacion{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+  }
+/* el li a: hover cambia a el color cuando se pone puntero encima. */
+li a:hover {
+    background-color: rgb(198, 196, 26);
+  }
+
+.fechas{
+    font-weight: bold;
+    font-style: italic;
+}
