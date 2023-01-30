@@ -15,15 +15,19 @@ body{
 }
 
 .bajoImagenPortada{
-    background-color: white;
+    background-color: rgb(23, 172, 123);
     text-align: center;
-    border: 1px solid black;
+    border: 1px dashed black;
     position: absolute;
-    top: 193px;
-    left: 249px;
-
+    top: 161px;
+    left: 336px;
 }
 
+ h1 h2{
+    color: white;
+ }
+
+ 
 .logo {
     position: relative;
     right: -594px;
@@ -47,6 +51,16 @@ ul {
     background-color: #333;
 }
 
+section{
+    height: auto;
+    width: auto;
+    line-height: 5px;
+    position: absolute;
+    top: 247px;
+    left: 197px;
+    text-align: center;
+    line-height: 46px;
+}
   
 .elementoBarraNavegacion{
     display: block;
