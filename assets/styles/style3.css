@@ -2,14 +2,69 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     padding: 0;
     margin: 0;
+
 }
 
 body{
     background-color: rgb(23, 172, 123);
 }
-.imagenFondo{
-    background-image: url(".assets/design1_image1.jpg");
+.imagenFondo1{
+    background-image: url(/assets/design1_image1.jpg);
+    background-position: 0px -127px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.imagenFondo2{
+    background-image: url(/assets/design2_image1.jpg);
+    background-position: 0px -127px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagenFondo3{
+    background-image: url(/assets/hockey_1.jpg);
+    background-position: 0px -127px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagenFondo4{
+    background-image: url(/assets/hockey_2.jpg);
+    background-position: 0px -127px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagenFondo5{
+    background-image: url(/assets/hockey_3.jpg);
+    background-position: 0px -127px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h2 {
+    color: white;
+    align-self: center;    
+}
+
+.bajoImagenPortada {
+    display: inline;
+    border: 2px solid rgb(198, 196, 26);
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 2px 3px #333;
+    padding: 8px;
+}
+
+
 .logo {
     position: relative;
     right: -594px;
@@ -29,8 +84,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+   /*  overflow: hidden; */
     background-color: #333;
+    justify-content: center;
 }
 
   
@@ -55,6 +111,58 @@ li a:hover {
     font-style: italic;
 }
 
-.listaField{
-    list-style-type:armenian;
+.tituloPagina{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
 }
+
+#centradoPrincipal{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.subRulesFlex{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.subRulesStyle{
+    display: inline;
+    border: 2px solid rgb(198, 196, 26);
+    border-radius: 20px;
+    box-shadow: 2px 3px #333;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-style: oblique;
+}
+
+.contenedorRules{
+    height: 18vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+
+.contenedorArticles{
+    height: 37vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.articleIndex{
+    text-align: center;
+}
+
+
