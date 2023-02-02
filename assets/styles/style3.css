@@ -2,7 +2,6 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     padding: 0;
     margin: 0;
-
 }
 h1{
     color:rgb(198, 196, 26);
@@ -123,8 +122,10 @@ li a:hover {
 
 #centradoPrincipal{
     display: flex;
-/*     width: 100vw; */
+    /* width: 100vw; */
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .subRulesFlex{
@@ -226,4 +227,15 @@ th, td {
  .flexRules{
     display: flex;
     flex-direction: column;
+}
+
+.flexFields{
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    text-decoration: underline;
+    text-decoration-color: rgb(198, 196, 26);
+    color: white
 }
