@@ -4,7 +4,10 @@
     margin: 0;
 
 }
-
+h1{
+    color:rgb(198, 196, 26);
+    text-shadow: 3px 3px 1px black;
+}
 body{
     background-color: rgb(23, 172, 123);
 }
@@ -48,14 +51,13 @@ body{
     background-attachment: fixed;
 }
 
-
 h2 {
     color: white;
     align-self: center;    
 }
 
 .bajoImagenPortada {
-    display: inline;
+    display: flex;
     border: 2px solid rgb(198, 196, 26);
     border-radius: 20px;
     flex-direction: row;
@@ -67,7 +69,7 @@ h2 {
 
 .logo {
     position: relative;
-    right: -594px;
+    right: -902px;
     top: 64px;
 }
 
@@ -89,7 +91,6 @@ ul {
     justify-content: center;
 }
 
-  
 .elementoBarraNavegacion{
     display: block;
     color: white;
@@ -109,28 +110,31 @@ li a:hover {
 .fechas{
     font-weight: bold;
     font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: rgb(198, 196, 26);
+    color: white
 }
 
 .tituloPagina{
     display: flex;
-    width: 100vw;
+/*     width: 100vw; */
     justify-content: center;
 }
 
 #centradoPrincipal{
     display: flex;
-    width: 100vw;
+/*     width: 100vw; */
     justify-content: center;
 }
 
 .subRulesFlex{
     display: flex;
-    width: 100vw;
+/*     width: 100vw; */
     justify-content: center;
 }
 
 .subRulesStyle{
-    display: inline;
+    display: flex;
     border: 2px solid rgb(198, 196, 26);
     border-radius: 20px;
     box-shadow: 2px 3px #333;
@@ -138,11 +142,12 @@ li a:hover {
     justify-content: center;
     color: white;
     font-style: oblique;
+    
 }
 
 .contenedorRules{
     height: 18vh;
-    width: 100vw;
+/*     width: 100vw; */
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -152,10 +157,10 @@ li a:hover {
 
 .contenedorArticles{
     height: 37vh;
-    width: 100vw;
+/*     width: 100vw; */
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap:wrap;
     align-content: center;
     justify-content: space-around;
     align-items: center;
@@ -163,6 +168,62 @@ li a:hover {
 
 .articleIndex{
     text-align: center;
+    /* padding: 10px; */
+}
+
+#centradoPrincipalAbout{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.articleAbout{
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.h3About{
+    text-decoration: underline;
+    text-decoration-color: rgb(198, 196, 26);
+    color: white
 }
 
 
+.tableStyle{
+    width: 100%;
+    border: 2px solid rgb(198, 196, 26);
+    border-radius: 20px;
+    box-shadow: 2px 3px #333;
+    color: white;
+}
+
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 2px solid rgb(198, 196, 26);
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ caption{
+    border: 2px solid rgb(198, 196, 26);
+    border-radius: 20px;
+    box-shadow: 2px 3px #333;
+    color: white;
+    font-style: oblique;
+ }
+
+ .pGameInfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -27px;
+    justify-content: space-evenly;
+ }
+
+ .flexRules{
+    display: flex;
+    flex-direction: column;
+}
