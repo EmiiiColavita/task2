@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/Logo_Mighty_ducks-01.ico" type="image/x-icon">
+    <!--<link rel="stylesheet" href="assets/styles/style1.css">-->
+    <!--<link rel="stylesheet" href="assets/styles/style2.css">-->
+    <link rel="stylesheet" href="assets/styles/style3.css">
+    <title>Home - Mighty Ducks - Hockey League</title>
+</head>
+
+<body>
+
+    <header class="imagenFondo1">
+        <div>
+            <h1>Mighty Ducks - Hockey League</h1>
+        </div>
+        <img class="logo" src="assets/Logo_Mighty_ducks-01.png" alt="Logo Mighty Ducks" width="100">
+    </header>
+
+
+
+    <nav class="barraNavegacion">
+        <ul>
+            <li><a class="elementoBarraNavegacion" href="./index.html">Home</a></li>
+            <li><a class="elementoBarraNavegacion" href="./aboutMDHL.html">About MDHL</a></li>
+            <li><a class="elementoBarraNavegacion" href="./game_info.html">Game Information</a></li>
+            <li><a class="elementoBarraNavegacion" href="./rules.html">Rules</a></li>
+            <li><a class="elementoBarraNavegacion" href="./registration_form.html">Registration Form</a></li>
+            <li><a class="elementoBarraNavegacion" href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+            <div class="tituloPagina">
+                <h2 class="bajoImagenPortada">Registration Form </h2>
+            </div>
+
+            <fieldset id="estiloForms">
+                <legend>Player's Information</legend>
+                <div>
+                    <form action="show_data.html" method="get">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="First-Name" placeholder="Name">
+
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="Last-Name" placeholder="Last Name"><br><br>
+
+                        <label for="streetAdress">Street Adress:</label>
+                        <input type="text" id="streetAdress" name="Street-Adress" placeholder="Street Adress"><br><br>
+
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="City" placeholder="City">
+
+                        <label for="zipCode">Zip Code:</label>
+                        <input type="text" id="zipCode" name="Zip-Code" placeholder="Zip Code"><br><br>
+
+                        <label for="birthDate">Birth date:</label>
+                        <input type="date" id="Birth-Date" name="birthDate">
+                        Gender:
+                        <label for="gender">Male</label>
+                        <input type="radio" name="Gender" id="Male" value="Male">
+                        <label for="gender">Female</label>
+                        <input type="radio" name="Gender" id="Female" value="Female">
+                </div>
+            </fieldset>
+
+            <fieldset id="estiloForms">
+                <legend>Which elementary school do you live near?</legend>
+                <div>
+                    <form action="show_data.html" method="get">
+                        Closest School:
+                        <label for="schoolNear">Aj Katzenmaier</label>
+                        <input type="radio" name="School-Near" id="Aj Katzenmaier" value="Aj Katzenmaier">
+
+                        <label for="schoolNear">Greenbay</label>
+                        <input type="radio" name="School-Near" id="Greenbay" value="Greenbay">
+
+                        <label for="schoolNear">Howard A Yaeger</label>
+                        <input type="radio" name="School-Near" id="Howard a Yaeger" value="Howard a Yaeger">
+
+                        <label for="schoolNear">Marjorie P Hart</label>
+                        <input type="radio" name="School-Near" id="Marjorie P Hart" value="Marjorie P Hart">
+
+                        <label for="schoolNear">North Elementary</label>
+                        <input type="radio" name="School-Near" id="North Elementary" value="North Elementary">
+
+                        <label for="schoolNear">South Elementary</label>
+                        <input type="radio" name="School-Near" id="South Elementary" value="South Elementary">
+
+                </div>
+            </fieldset>
+
+            <fieldset id="estiloForms">
+                <legend>What position(s) do you normally play? (check all the apply)</legend>
+                <div>
+                    <form action="show_data.html" method="get">
+
+                        <label for="position">Foward</label>
+                        <input type="checkbox" name="Position" id="Foward" value="Foward">
+
+                        <label for="position">Defense</label>
+                        <input type="checkbox" name="Position" id="Defense" value="Defense">
+
+                        <label for="position">Midfield</label>
+                        <input type="checkbox" name="Position" id="Midfield" value="Midfield">
+
+                        <label for="position">GoalKeeper</label>
+                        <input type="checkbox" name="Position" id="GoalKeeper" value="GoalKeeper">
+
+                </div>
+            </fieldset>
+
+            <fieldset id="estiloForms">
+                <legend>Uniform Size.</legend>
+                <div>
+                    <form action="show_data.html" method="get">
+
+                        <label for="uniformSize">Small</label>
+                        <input type="radio" name="Uniform-Size" id="Small" value="Small">
+
+                        <label for="uniformSize">Youth Small</label>
+                        <input type="radio" name="Uniform-Size" id="Youth Small" value="Youth Small">
+
+                        <label for="uniformSize">Medium</label>
+                        <input type="radio" name="Uniform-Size" id="Medium" value="Medium">
+
+                        <label for="uniformSize">Youth Medium</label>
+                        <input type="radio" name="Uniform-Size" id="Youth Medium" value="Youth Medium">
+
+                        <label for="uniformSize">Large</label>
+                        <input type="radio" name="Uniform-Size" id="Large" value="Large">
+
+                        <label for="uniformSize">Youth Large</label>
+                        <input type="radio" name="Uniform-Size" id="Youth Large" value="Youth Large">
+
+                        <label for="uniformSize">Extra Large</label>
+                        <input type="radio" name="Uniform-Size" id="Extra Large" value="Extra Large">
+
+                </div>
+            </fieldset>
+
+            <fieldset id="estiloForms">
+                <legend>Permission to play.</legend>
+                <div>
+
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by
+                        all the rules of the Might Ducks Hochey League (MDHL). In reconozing the possibility of physical
+                        injury associated with hockey and in consideration for the "League" accepting the registrant for
+                        its hockey programs and activities, I hereby release, discharge, and/or otherwise idemnify MDHL,
+                        their employees and asociated personnel and volunteers, including the facilities used for
+                        practices and games, against any claim by or on behalf of the registrant as a result of the
+                        registrant's participation in the promgram/orbeing transported to or from MDHL sponsored
+                        activities, which transportation.</p><br><br>
+
+                    <p>By signing below, I here by agree and autorizhe the above. In adittion, by signing below, I also
+                        acknowledge that I have read the cancellation policy and agreeto its terms.</p><br><br>
+                    <form action="show_data.html" method="get">
+
+                        <label for="parentGuardianSignature" class="firma">Parent/Guardian Signature:</label>
+                        <input type="text" id="parentGuardianSignature" name="Parent/Guardian-Signature"
+                            placeholder="Parent or Guardian Signature">
+
+                        <label for="datePermission">Date:</label>
+                        <input type="date" id="datePermission" name="Date-Permission">
+                </div>
+            </fieldset>
+            <input type="submit" value="Send" class="botonSubmit"> 
+    </main>
+</body>
