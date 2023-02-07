@@ -1,11 +1,22 @@
 *{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Verdana", "Calibri", "Ginebra", cursive;
     padding: 0;
     margin: 0;
 }
+
+main{
+    margin: 0 1rem 1rem;
+}
+
 h1{
     color:rgb(198, 196, 26);
     text-shadow: 3px 3px 1px black;
+}
+
+.h3About{
+    color: white;
+    margin: 10px;
+    text-decoration: solid underline rgb(198, 196, 26);
 }
 body{
     background-color: rgb(23, 172, 123);
@@ -68,7 +79,7 @@ h2 {
 
 .logo {
     position: relative;
-    right: -902px;
+    right: -850px;
     top: 64px;
 }
 
@@ -107,25 +118,30 @@ li a:hover {
   }
 
 .fechas{
+    margin: 10px;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
     text-decoration-color: rgb(198, 196, 26);
-    color: white
+    color: white;
+    
 }
 
 .tituloPagina{
     display: flex;
 /*     width: 100vw; */
     justify-content: center;
+    margin: 15px
 }
 
 #centradoPrincipal{
     display: flex;
-    /* width: 100vw; */
+ /*    width: 100vw; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .subRulesFlex{
@@ -135,19 +151,20 @@ li a:hover {
 }
 
 .subRulesStyle{
-    display: flex;
+ display: flex;
     border: 2px solid rgb(198, 196, 26);
     border-radius: 20px;
     box-shadow: 2px 3px #333;
     flex-direction: row;
     justify-content: center;
     color: white;
-    font-style: oblique;
-    
+    font-style: oblique; 
+
 }
 
+
 .contenedorRules{
-    height: 18vh;
+/*     height: 18vh; */
 /*     width: 100vw; */
     display: flex;
     flex-direction: column;
@@ -161,7 +178,7 @@ li a:hover {
 /*     width: 100vw; */
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
+/*     flex-wrap:wrap; */
     align-content: center;
     justify-content: space-around;
     align-items: center;
@@ -174,7 +191,7 @@ li a:hover {
 
 #centradoPrincipalAbout{
     display: flex;
-    width: 100vw;
+/*     width: 100vw; */
     justify-content: center;
     flex-direction: column;
 }
@@ -184,12 +201,15 @@ li a:hover {
     /* padding: 10px; */
 }
 
-.h3About{
+.About{
     text-decoration: underline;
     text-decoration-color: rgb(198, 196, 26);
-    color: white
+    color: white;
+    margin: 10px;
 }
-
+ .listRules{
+    list-style-type: disc;
+ }
 
 .tableStyle{
     width: 100%;
@@ -222,16 +242,28 @@ th, td {
     position: relative;
     bottom: -27px;
     justify-content: space-evenly;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 35px;
  }
 
  .flexRules{
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 .flexFields{
     display: flex;
     flex-direction: column;
+    list-style-type:decimal;
+    list-style-position: inside;
+    gap:1rem;
+}
+
+dt{
+    color: white;
+    font-style: italic;
 }
 
 h4{
@@ -270,6 +302,8 @@ legend{
     border-style: double;
     border-color:rgb(198, 196, 26) ;
     display: inline;
+    position: relative;
+    right: -538px;
 /*     flex-direction: column;
     flex-wrap: nowrap;
     align-content: space-around;
@@ -279,4 +313,80 @@ legend{
 
 .botonSubmit:hover{
     background-color: rgb(198, 196, 26);
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-around;
+    align-items: center;
+}
+
+.mapsTittle{
+    display: flex;
+    border: 2px solid rgb(198, 196, 26);
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 2px 3px #333;
+    padding: 8px;
+    margin: 15px;
+    color: white;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .logo {
+        position: relative;
+        right: 0px;
+        top: 0px;
+    }
+
+    h1 {
+        color: rgb(198, 196, 26);
+        text-shadow: 3px 3px 1px black;
+        font-size: larger;
+    }
+    .barraNavegacion{
+        font-size: small;
+    }
+
+    .botonSubmit {
+        border-radius: 23%;
+        padding: 0.5em 1em;
+        border: none;
+        background: #333;
+        cursor: pointer;
+        color: white;
+        border-style: double;
+        border-color: rgb(198, 196, 26);
+        display: inline;
+        position: relative;
+        right: -129px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+ .logo{
+    position: relative;
+    right: 0px;
+    top: 0px;
+ }
+
+ #estiloForms {
+    display: flex;
+    border-style: outset;
+    border-color: rgb(198, 196, 26);
+    padding: 15px;
+    font-size: small;
+    
+}
+ 
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1339px){
+
 }
